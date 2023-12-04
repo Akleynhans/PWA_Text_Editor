@@ -21,9 +21,9 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'JATE'
+        title: 'Jate'
       }),
-     
+    
       // Injects our custom service worker
       new InjectManifest({
         swSrc: './src-sw.js',
